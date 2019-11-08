@@ -3,7 +3,9 @@ import React from 'react';
 class HeaderContent extends React.Component {
     render() {
         return (
-        <h3>ATM Machine</h3>
+            <>
+                <h1 className="heading_text">ATM Machine</h1>
+            </>
     )
  } 
 }

@@ -1,0 +1,69 @@
+.App{ 
+  text-align: center;
+}
+.heading_text{
+  background-color: cornflowerblue;
+  padding: 5px;
+  text-align: -webkit-center;
+}
+/* Money dispenser CSS */
+.money_dispnser {
+  display: -webkit-flex;
+  flex-direction: row;
+  padding: 0% 10%;
+}
+
+.machine_component, .money_dispenser {
+  /* display: -webkit-inline-flex; */
+  flex-grow: 1;
+}
+
+.machine_component {
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.machine_input {
+  width: 60%;
+  height: 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 0px 5px;
+}
+
+.submit_button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  border-color: transparent;
+  background-color: cornflowerblue;
+  font-weight: bold; 
+  margin-top:15px;
+}
+
+/* Money Dispenser */
+.dispenser_heading {
+  font-weight: bold;
+  padding-left: 40px;
+}
+.money_dispenser {
+  background-color:aliceblue;
+  text-align: -webkit-left;
+}
+.dispenser_list {
+  list-style-type: none;
+}
+
+.dispenser_item {
+  padding: 3px 0px;
+}
+
+.counter {
+  padding-left: 40px;
+  font-weight: bold;
+}
